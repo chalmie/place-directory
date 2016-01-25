@@ -10,18 +10,30 @@
   <body>
     <div class="container">
       <h1>Places we've been</h1>
-      <h2> Add your place to the list:</h2>
 
       <div class="row">
+        <div class="col-md-6">
+        <h2> Add Your Place to the List </h2>
         <form id="new-place">
           <div class="form-group">
             <label for="new-city">City</label>
             <input type"text" class="form-control" id="new-city">
           </div>
           <div class="form-group">
-          
+            <label for="new-landmark">Landmark</label>
+            <input type="text" class="form-control" id="new-landmark">
           </div>
+          <div class="form-group">
+            <label for="new-time-of-year">Time of Year</label>
+            <input type="text" class="form-control" id="new-time-of-year">
+          </div>
+          <div class="form-group">
+            <label for="new-notes">Notes</label>
+            <input type="text" class="form-control" id="new-notes">
+          </div>
+        </div>
       </div>
+        <button type="submit" class="btn" id="Add Place">Add Place</button>
     </div>
   </body>
 </html>

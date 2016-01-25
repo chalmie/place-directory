@@ -6,4 +6,5 @@ describe('Place', function (){
     expect(testPlace.timeOfYear).to.equal("Summer");
     expect(testPlace.notes).to.equal("Notes");
   });
+
 });

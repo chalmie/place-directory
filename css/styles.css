@@ -10,3 +10,7 @@
 #output:hover {
   text-decoration: underline;
 }
+
+.list {
+  font-size: 20px;
+}

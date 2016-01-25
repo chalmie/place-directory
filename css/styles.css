@@ -1,0 +1,12 @@
+#show-place {
+  display: none;
+}
+
+#output {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+#output:hover {
+  text-decoration: underline;
+}

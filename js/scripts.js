@@ -14,19 +14,16 @@ $ (document).ready(function() {
     var userTimeOfYear = $("input#new-time-of-year").val();
     var userNotes = $("input#new-notes").val();
     var newPlace = new Place(userCity,userLandmark,userTimeOfYear,userNotes);
-
-  $("ul#output").append("<li><span class='city'>" + newPlace.city + "</span></li>")
   });
 
-  $("#show-place").last().click(function() {
+  $("ul#output").append("<li><span>" + newPlace.city + "</span></li>");
+
+  $("#output").click(function() {
     $("#show-place").show();
     $(".city").text(newPlace.city);
     $(".landmark").text(newPlace.landmark);
     $(".timeOfYear").text(newPlace.timeOfYear);
     $(".notes").text(newPlace.notes);
   });
-
-
-
 
 });
